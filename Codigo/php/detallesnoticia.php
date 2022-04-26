@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 
 	session_start();
 
-    include "BD/DAOComentarios.php";
+    include "BD/DAOcomentarios.php";
     include 'BD/conectorBD.php';
     include 'BD/DAOUsuarios.php';
 	require 'BD/DAONoticia.php';
