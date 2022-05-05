@@ -68,7 +68,7 @@ error_reporting(E_ALL);
         }
         function mostrarPerfil($conexion, $idUsuario)
 	{
-		$consulta = "SELECT * FROM Usuario WHERE(`idUsuario` = '$idUsuario')";
+		$consulta = "SELECT * FROM usuario WHERE(`idUsuario` = '$idUsuario')";
 		$resultado = mysqli_query($conexion, $consulta);
 		return $resultado;
     }
@@ -100,7 +100,7 @@ error_reporting(E_ALL);
             return $resultado;
         }
         function mostrarDatosdeUsuario($conexion,$idUsuario){
-            $consulta = "SELECT * FROM Usuario WHERE idUsuario='$idUsuario'";
+            $consulta = "SELECT * FROM usuario WHERE idUsuario='$idUsuario'";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
