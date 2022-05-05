@@ -7,8 +7,8 @@
 
 # Variables de entorno
 
-USERDB="debianDB"
-PASSDB="debianDB"
+USERDB="root"
+PASSDB="root"
 HOST=$(hostname -I)
 WWW="/var/www/html/"
 # Nombre del fichero de los datos en el proyecto 
