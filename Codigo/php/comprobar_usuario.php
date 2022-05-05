@@ -34,7 +34,7 @@ else
     }
     else
     {
-        header("Location: ../ingresar_usuario.html");
+        header("Location: ../ingresar_usuario.php");
     }
 }
 
