@@ -5,7 +5,7 @@ error_reporting(E_ALL);
 ?>
 <?php 
     function consultaUsuarios($conexion, $usuario){
-		$consulta = "SELECT * FROM Usuario WHERE Usuario = '$usuario'";
+		$consulta = "SELECT * FROM usuario WHERE Usuario = '$usuario'";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
 	}
