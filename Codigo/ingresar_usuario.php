@@ -78,8 +78,6 @@
 
                 <label class="form-label">Municipio: </label>
                 <div id="listaMunicipios" style="text-align:center">
-
-                </div>
                 <span id="municipio__error">Formato Incorrecto</span><br>
 
                 <label class="form-label">Direccion: </label>
@@ -89,7 +87,7 @@
                 <label class="form-label">Fecha de nacimiento: </label>
                 <input type="date" style="text-align:center" name="fechanacimiento" id="fechanacimiento"  class="form-control" placeholder="Escribe la fecha con numeros: 0000/00/0"><br>
                 <span id="fechanacimiento__error" class="error">Formato Incorrecto</span><br>
-              
+                </div>
                 <br>
 
           <button type="submit" class="btn btn-primary">Enviar</button>
