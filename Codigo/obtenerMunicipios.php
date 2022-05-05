@@ -6,9 +6,9 @@
             $servidor = "";
            
         }else{
-            $servidor = "localhost:3307";
-            $usuario = "root";
-            $password = "root";
+            $servidor = "127.0.0.1";
+            $usuario = "debianDB";
+            $password = "debianDB";
             $bd = "final";
         }
       
