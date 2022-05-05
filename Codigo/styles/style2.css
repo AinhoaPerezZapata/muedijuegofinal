@@ -1,0 +1,32 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.nav-main1 {
+    width: 100% !important;
+    margin: 0 auto;
+    background-color: #6684ab;
+    display: grid;
+    grid-template-columns: repeat(1fr, minmax(300px, 1fr));
+    grid-template-areas: " elemento1 elemento2 elemento3 elemento4";
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    grid-auto-flow: column;
+}
+.nav-main1 a {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 26px;
+    margin: 0 10px;
+    transition: .5s ease all;
+    color: #000000;
+    text-decoration: none;
+}
+.nav-main1 .actionpanel:hover {
+    transform: translateY(18px);/* tranformar hacia abajo 18 pixeles */
+    background-color: #54BBE3;
+}
+
