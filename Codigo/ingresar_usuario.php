@@ -49,6 +49,13 @@
                 <input type="text" style="text-align:center" class="form-control" id="dni" name="dni" placeholder="DNI">
                 <span id="dni__error" class="error">Formato Incorrecto</span><br>
                 
+                 <label class="form-label">Direccion: </label>
+                <input type="text" style="text-align:center" name="direccion" id="direccion"  class="form-control" placeholder="Calle:..."><br>
+                <span id="direccion__error" class="error">Formato Incorrecto</span><br>
+                
+                <label class="form-label">Fecha de nacimiento: </label>
+                <input type="date" style="text-align:center" name="fechanacimiento" id="fechanacimiento"  class="form-control" placeholder="Escribe la fecha con numeros: 0000/00/0"><br>
+                <span id="fechanacimiento__error" class="error">Formato Incorrecto</span><br>
               
                 <label class="form-label">Telefono: </label>
                 <input type="text" style="text-align:center" name="telefono" id="telefono" class="form-control" placeholder="Ejemplo: 659777894"><br>
@@ -80,13 +87,7 @@
                 <div id="listaMunicipios" style="text-align:center">
                 <span id="municipio__error">Formato Incorrecto</span><br>
 
-                <label class="form-label">Direccion: </label>
-                <input type="text" style="text-align:center" name="direccion" id="direccion"  class="form-control" placeholder="Calle:..."><br>
-                <span id="direccion__error" class="error">Formato Incorrecto</span><br>
                 
-                <label class="form-label">Fecha de nacimiento: </label>
-                <input type="date" style="text-align:center" name="fechanacimiento" id="fechanacimiento"  class="form-control" placeholder="Escribe la fecha con numeros: 0000/00/0"><br>
-                <span id="fechanacimiento__error" class="error">Formato Incorrecto</span><br>
                 </div>
                 <br>
 
