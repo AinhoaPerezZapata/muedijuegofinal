@@ -34,7 +34,7 @@
     
         }
         function recuperar($conexion, $email){
-            $consulta = "SELECT * FROM usuario WHERE Email = '$email' ";
+            $consulta = "SELECT * FROM Usuario WHERE Email = '$email' ";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
        }
