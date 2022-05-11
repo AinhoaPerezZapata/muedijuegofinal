@@ -1,7 +1,7 @@
 
 <?php 
     function consultaUsuarios($conexion, $usuario){
-		$consulta = "SELECT * FROM Usuario WHERE Usuario = '$usuario'";
+		$consulta = "SELECT * FROM usuario WHERE Usuario = '$usuario'";
         $resultado = mysqli_query($conexion, $consulta);
         return $resultado;
 	}
@@ -34,7 +34,7 @@
     
         }
         function recuperar($conexion, $email){
-            $consulta = "SELECT * FROM Usuario WHERE Email = '$email' ";
+            $consulta = "SELECT * FROM usuario WHERE Email = '$email' ";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
        }
@@ -64,7 +64,7 @@
         }
         function mostrarPerfil($conexion, $idUsuario)
 	{
-		$consulta = "SELECT * FROM Usuario WHERE(`idUsuario` = '$idUsuario')";
+		$consulta = "SELECT * FROM usuario WHERE(`idUsuario` = '$idUsuario')";
 		$resultado = mysqli_query($conexion, $consulta);
 		return $resultado;
     }
@@ -96,7 +96,7 @@
             return $resultado;
         }
         function mostrarDatosdeUsuario($conexion,$idUsuario){
-            $consulta = "SELECT * FROM Usuario WHERE idUsuario='$idUsuario'";
+            $consulta = "SELECT * FROM usuario WHERE idUsuario='$idUsuario'";
             $resultado = mysqli_query($conexion, $consulta);
             return $resultado;
         }
